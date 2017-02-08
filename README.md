@@ -4,9 +4,13 @@
 
 `yarn run start` to run in localhost
 
-## Features to add
-1) Add a _TextInput_ to add an item to the shopping cart (fields: label, price and quantity)
-  
-2) Add a label at the bottom showing the total price of the cart
+## Context
 
-3) When the quantity is higher than 5, change the color of the text to orange.
+Initially, you have a predefined list of articles already active in your shopping cart. They are listed when you run the app.
+
+## Features to add
+1) As a user, I want to add an article to my shopping cart. I need to provide a label, a price and a quantity.
+  
+2) As a user, I want to see the total price of the cart.
+
+3) As a platform, I need to change the text color to orange when the quantity is higher than 5.
