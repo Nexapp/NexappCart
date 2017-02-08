@@ -9,6 +9,6 @@ function ArticleListItem({ article }) {
 
 ArticleListItem.propTypes = {
   article: PropTypes.instanceOf(Article).isRequired
-}
+};
 
 export default ArticleListItem;

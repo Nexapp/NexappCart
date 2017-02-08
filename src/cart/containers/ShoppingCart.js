@@ -21,7 +21,7 @@ class ShoppingCart extends Component {
           <h2>Nexapp Cart</h2>
         </div>
 
-        <h1>Mon panier d'achat</h1>
+        <h1>{'Mon panier d\'achat'}</h1>
         <ul>
           {this.props.items.map(item => <ArticleListItem article={item} key={item.label} />)}
         </ul>
@@ -35,7 +35,7 @@ ShoppingCart.propTypes = {
     fetchCart: PropTypes.func.isRequired,
   }).isRequired,
   items: PropTypes.arrayOf(PropTypes.instanceOf(Article)).isRequired,
-}
+};
 
 function mapStateToProps(state) {
   return {
